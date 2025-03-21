@@ -1,0 +1,15 @@
+npm install 
+
+npm install react-router-dom
+
+npm run dev
+
+o
+
+import { Route, Routes } from 'react-router-dom';
+import UserProfileForm from './views/UserProfilePage';
+
+     <Routes>
+         <Route index element={<MainPage/>}/>
+         <Route path="/user-prof" element={<UserProfileForm/>}/>
+     </Routes>
